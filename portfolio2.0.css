@@ -1,9 +1,9 @@
 /* For All Pages */
 body {
-	background-image: url("images/mellow.jpg");
-	background-color: #76a99b;
-	background-size: 100%;
-	background-repeat: no-repeat;
+	background-image: url("images/mellow.jpg"), url("images/background.jpg");
+	
+	background-size: 100%, 100%;
+	background-repeat: no-repeat, repeat;
 }
 
 h1 {
@@ -129,9 +129,11 @@ h2 {
 /*__--__--__--__--__--__--__--__--__--__--__--__--__--*/
 
 /* index page */
-
+.footer2 {
+	color: #d5ded9;
+}
 #footer1{
-	color: #262626;
+	color: #d5ded9;
 	font-size: 20px;
 	position: inline-block;
 	font-family: 'Rubic', Arial;
@@ -249,7 +251,7 @@ hr {
 	padding: 15px;
 	margin-top: 120px;
 	margin-left: 140px;
-	height: 1100px;
+	height: 1170px;
 }
 
 .imgContainer{
