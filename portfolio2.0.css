@@ -1,148 +1,385 @@
-
-
+/* For All Pages */
 body {
-	background-color: darkorange;
-	opacity: 0.9;
+	background-image: url("images/mellow.jpg");
+	background-color: #76a99b;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
-li a {
-	color: green;
-	display: block;
-	font-size: 20px;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-/*li a:hover {
-	background-color: none;
-}
-*/
 h1 {
-		font-family: 'Bungee Inline', cursive;
-		padding: 10px;
-		font-weight: normal;
-		color: black;
-		margin: 0px;
-		font-size: 225%;
-		text-shadow: 4px 4px 6px #666666;
-		padding-bottom: 10px;
-		text-align: center;
-	}
+	color: #3c8571;
+	font-family: 'Fredericka the Great', cursive;
+	padding: 10px;
+	font-weight: normal;
+	margin: 0px;
+	font-size: 225%;
+	text-shadow: 4px 4px 6px #666666;
+	text-align: center;
+}
 
 h2 {
-	color: black;
-	text-align: center;
-	font-family: 'Bungee Inline', cursive;
+	color: #3c8571;
+	text-align: left;
+	font-family: 'Fredericka the Great', cursive;
 	font-size: 170%;
+	text-shadow: 4px 4px 6px #ffcf93;
+	margin-left: 55px;
 }
 
-h3 {
-	font-family: Georgia;
-}
-
-#izze {
-	margin:auto auto auto 510px;
-}
-/*
-a:link {
-	color: green;
-}
-
-a:visited {
-	color: purple;
-}
-
-/*a:hover {
-	color: white;
-}
-*/
-/*need help with this
-
-@font-face {
-	font-family: 'Bungee Inline';
-	src: https://fonts.googleapis.com/css?family=Bungee+Inline; */
-}
-
-.navigation {
-	height: auto;
+#nav {
+	list-style: none;
 	text-align: center;
 	width: 100%;
-	position: absolute;
-	top: 0;
+	position: relative;
+	margin-left: 10px;
 }
 
-.navigation ul {
+#nav ul {
 	list-style-type: none;
-	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
-	padding: .5;
+	width: 100%;
+	margin-top: 80px;
 }
 
-.navigation li {
+#nav li {
 	color: black;
 	float: left;
-	font-family: 'Arial', Sans-Serif;
+	font-family: 'Text Me One', Sans-Serif;
 	font-size: 20px;
 	font-weight: 100;
 	letter-spacing: 2px;
-	margin: 20px;
+	margin-left: 20px;
 	text-transform: uppercase;
 	width: 380px;
-	height: 50px;
 }
 
-
-/*
-.moreimages {
-	float: right;
-}
-*/
-img {
-	border: 5px solid green;
-	padding: 10px;
-	width: 275px;
-	border-radius: 10px;
-	box-shadow: 5px 5px 5px #777777;
-	margin: 5px;
-}
-
-blockquote {
+#nav li a {
+	color: #3c8571;
+	display: block;
+	font-size: 20px;
 	text-align: center;
+	text-decoration: none;
+}
+
+#nav li a:hover {
+    color: 	#c39934;
+}
+
+#nav2 {
+	list-style: none;
+	text-align: center;
+	width: 100%;
+	position: relative;
+}
+
+#nav2 ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+#nav2 li {
+	color: black;
+	float: left;
+	font-family: 'Fredericka the Great', Sans-Serif;
+	font-size: 20px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	margin-left: 20px;
+	text-transform: uppercase;
+	width: 380px;
+}
+
+#nav2 li a {
+	color: #3c8571;
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#nav2 li a:hover {
+    color: 	#c39934;
+}
+
+.lower {
+	margin-top: 60px;
+}
+
+#picture {
+	width: 19%;
+	border: 3px solid #3c8571;
+  	border-radius: 100%;
+  	position: relative;
+  	left: 39%;
+}
+
+
+
+.imageText {
+	margin-left: 416px;
+	color: #3c8571;
+	font-family:'Bungee Inline';
+	font-size: 3em;
+	text-shadow: 4px 4px 6px #c39934;
+	margin-top: 25px;
+}
+/*__--__--__--__--__--__--__--__--__--__--__--__--__--*/
+
+/* index page */
+
+#footer1{
+	color: #262626;
+	font-size: 20px;
+	position: inline-block;
+	font-family: 'Rubic', Arial;
+}
+
+.container {
+	margin-top: 100px;
+	margin-left: 520px;
+}
+
+.frontend {
+	font-size: 18px;
+	font-family: Georgia;
+	margin-left: 30px;
+	font-family: 'Rubic', Arial;
+}
+
+
+/*__--__--__--__--__--__--__--__--__--__--__--__--__--*/
+
+
+/* resume page */
+.resumeText {
+	margin-left: 475px;
+	color: #3c8571;
+	font-family:'Bungee Inline';
+	font-size: 3em;
+	text-shadow: 4px 4px 6px #c39934;
+	margin-top: 25px;
+}
+
+
+#movingLeft {
+	margin-left: 55px;
+	width: 700px;
+	font-family: 'Text Me One', Arial;
+	font-size: 19px;
+}
+
+#movingLeft2 {
+	margin-left: 55px;
+	font-size: 20px;
+}
+
+p.small {
+	line-height: 30%;
+	font-family: 'Roboto', Arial;
+}
+
+
+
+.movingright {
+	margin-left: 15px;
+	font-family: 'Text Me One', Arial;
+	font-size: 18px;
+}
+
+#otherinfo {
+	background-color: #b9c3b9;
+	float: left;
+	width: 198px;
+	height: 1276px;
+	border-radius: 3px;
+	padding: 15px;
+	margin-top: 120px;
+	margin-left: 100px;
+}
+
+#info {
+	background-color: #b9c3b9;
+	float: right;
+	width: 800px;
+	border-radius: 3px;
+	padding: 15px;
+	margin-top: 120px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+}
+
+.subject {
+	color: #3c8571;
+	text-align: left;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 170%;
+	text-shadow: 4px 4px 6px #ffcf93;
+	margin-left: 10px;
+}
+
+.subject2 {
+	color: #3c8571;
+	text-align: left;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 170%;
+	text-shadow: 4px 4px 6px #ffcf93;
 }
 
 hr {
-	background-color: green;
-	height: 2px;
+	box-shadow: 2px 2px 4px #3c8571;
 }
+/*__--__--__--__--__--__--__--__--__--__--__--__--__--*/
 
-.imgcontainer {
-	margin-left: 150px;
-}
 
 /* portfolio page */
-
-.floating-box {
-    float: left;
-    margin: 5px 15px 0px 80px;
-    text-align: center;
-    font-family: sans-serif;  
+#myProjects {
+	font-size: 35px;
+	margin-top: 10px;
+	margin-left: 350px;
+	font-family: "Bungee Inline";
 }
 
-.floating-box img {
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 2em;
+#projects {
+	background-color: #b9c3b9;
+	width: 75%;
+	border-radius: 3px;
+	padding: 15px;
+	margin-top: 120px;
+	margin-left: 140px;
+	height: 1100px;
 }
 
-.wrap {
-	max-width: 100%;
-	max-height: 100%;
-	display: block;
-	height: 336px;
-	width: 313px;
+.imgContainer{
+    float:left;
+    margin-left: 50px;
+    padding: 70px 70px 35px 70px;
+    border: 2px solid black;
+    border-spacing: 5px;
+    margin-top: 37px;
+    border-radius: 3px;
+}
+
+.projectimages {
+	border-radius: 4px;
+}
+
+.aboutproject {
+	font-family: 'Text Me One', Arial;
+	font-size: 16.5px;
+	width: 250px;
+}
+
+/*__--__--__--__--__--__--__--__--__--__--__--__--__--*/
+
+
+/*Get To Know Me Page*/
+#aboutme1 {
+	background-color: #b9c3b9;
+	width: 55%;
+	border-radius: 3px;
+	padding: 5px;
+	margin-left: 284px;
+	margin-top: 120px;
+	display: center;
+	height: 64px;
+}
+
+#aboutme4 {
+	background-color: #b9c3b9;
+	width: 55%;
+	border-radius: 3px;
+	padding: 5px;	
+	margin-top: 10px;
+	margin-left: 284px;
+	
+}
+
+.hello{
+	color: #3c8571;
+	font-size: 49px;
+	font-family: 'Fredericka the Great', Arial;
+	text-shadow: 4px 4px 6px #c39934;
+	text-decoration: underline;
+	margin-top: -0px;
+	margin-left: 275px;
+}
+
+#insideabout {
+	font-family: 'Text Me One', Arial;
+	width: 650px;
+	margin-left: 25px;
+	font-size: 19px;
+
+}
+
+#aboutme2 {
+	float: left;
+	background-color: #b9c3b9;
+	border-radius: 3px;
+	padding: 15px;
+	margin-left: 142px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	width: 450px;
+	height: 1229px;
+}
+
+.list {
+	font-size: 19px;
+	text-align: left;
+	margin-left: 70px;
+	margin-bottom: 5px;
+	font-family: 'Text Me One', Arial;
+}
+.interest {
+	text-align: center;
+	color: #3c8571;
+	font-size: 35px;
+	font-family: 'Fredericka the Great', Arial;
+	font-size: 40px;
+	border: 3px solid #3c8571;
+}
+
+.myinterests {
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Text Me One', Arial;
+}
+
+#aboutme3 {
+	float: right;
+	background-color: #b9c3b9;
+	border-radius: 3px;
+	padding: 15px;
+	margin-right: 142px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	width: 450px;
+
+}
+
+.image1 {
+	margin-left: 9px;
+	border-radius: 2px;	
+	border: 1px solid black;
+
+}
+
+.image2 {
+	border-radius: 2px;
+	margin-left: 9px;
+	border: 1px solid black;
+	
+}
+
+.image3 {
+	margin-top: 52px;
+	margin-left: 3px;
+	border-radius: 2px;
+	border: 1px solid black;
 }
 
 @media (max-width: 1050px) {
