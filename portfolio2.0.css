@@ -13,7 +13,7 @@ h1 {
 	font-weight: normal;
 	margin: 0px;
 	font-size: 225%;
-	text-shadow: 4px 4px 6px #666666;
+	text-shadow: 4px 4px 6px #c08908;
 	text-align: center;
 }
 
@@ -22,7 +22,7 @@ h2 {
 	text-align: left;
 	font-family: 'Fredericka the Great', cursive;
 	font-size: 170%;
-	text-shadow: 4px 4px 6px #ffcf93;
+	text-shadow: 4px 4px 6px #c08908;
 	margin-left: 55px;
 }
 
@@ -123,7 +123,7 @@ h2 {
 	color: #3c8571;
 	font-family:'Bungee Inline';
 	font-size: 3em;
-	text-shadow: 4px 4px 6px #c39934;
+	text-shadow: 4px 4px 6px #c08908;
 	margin-top: 25px;
 }
 /*__--__--__--__--__--__--__--__--__--__--__--__--__--*/
@@ -161,7 +161,7 @@ h2 {
 	color: #3c8571;
 	font-family:'Bungee Inline';
 	font-size: 3em;
-	text-shadow: 4px 4px 6px #c39934;
+	text-shadow: 4px 4px 6px #c08908;
 	margin-top: 25px;
 }
 
@@ -180,7 +180,7 @@ h2 {
 
 p.small {
 	line-height: 30%;
-	font-family: 'Roboto', Arial;
+	font-family: 'Rubic', Arial;
 }
 
 
@@ -195,7 +195,7 @@ p.small {
 	background-color: #b9c3b9;
 	float: left;
 	width: 198px;
-	height: 1276px;
+	height: 1295px;
 	border-radius: 3px;
 	padding: 15px;
 	margin-top: 120px;
@@ -216,18 +216,18 @@ p.small {
 .subject {
 	color: #3c8571;
 	text-align: left;
-	font-family: 'Bungee Inline', cursive;
-	font-size: 170%;
-	text-shadow: 4px 4px 6px #ffcf93;
+	font-family: 'Text Me One', cursive;
+	font-size: 180%;
+	text-shadow: 4px 4px 6px #c08908;
 	margin-left: 10px;
 }
 
 .subject2 {
 	color: #3c8571;
 	text-align: left;
-	font-family: 'Bungee Inline', cursive;
-	font-size: 170%;
-	text-shadow: 4px 4px 6px #ffcf93;
+	font-family: 'Text Me One', cursive;
+	font-size: 180%;
+	text-shadow: 4px 4px 6px #c08908;
 }
 
 hr {
@@ -240,8 +240,8 @@ hr {
 #myProjects {
 	font-size: 35px;
 	margin-top: 10px;
-	margin-left: 350px;
-	font-family: "Bungee Inline";
+	margin-left: 375px;
+	font-family: "Text Me One";
 }
 
 #projects {
@@ -251,7 +251,7 @@ hr {
 	padding: 15px;
 	margin-top: 120px;
 	margin-left: 140px;
-	height: 1170px;
+	height: 1190px;
 }
 
 .imgContainer{
@@ -302,8 +302,8 @@ hr {
 .hello{
 	color: #3c8571;
 	font-size: 49px;
-	font-family: 'Fredericka the Great', Arial;
-	text-shadow: 4px 4px 6px #c39934;
+	font-family: 'Text Me One', Arial;
+	text-shadow: 4px 4px 6px #c08908;
 	text-decoration: underline;
 	margin-top: -0px;
 	margin-left: 275px;
@@ -340,7 +340,7 @@ hr {
 	text-align: center;
 	color: #3c8571;
 	font-size: 35px;
-	font-family: 'Fredericka the Great', Arial;
+	font-family: 'Text Me Ones', Arial;
 	font-size: 40px;
 	border: 3px solid #3c8571;
 }
@@ -360,6 +360,7 @@ hr {
 	margin-top: 15px;
 	margin-bottom: 10px;
 	width: 450px;
+	height: 1229px;
 
 }
 
